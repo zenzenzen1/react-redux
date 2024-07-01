@@ -22,7 +22,7 @@ const App = () => {
           height: '90vh',
         }}
       >
-        <Title style={{ textAlign: 'center' }}>TODO APP with REDUX</Title>
+        <Title style={{ textAlign: 'center' }}>TODO APP With Redux</Title>
         <Filters />
         <Divider />
         <TodoList />

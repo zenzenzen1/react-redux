@@ -89,3 +89,5 @@ const todoListReducer = createSlice({
 })
 
 export default todoListReducer;
+
+// export const { addTodo, changeCompleteStatus, deleteTodo } = todoListReducer.actions;

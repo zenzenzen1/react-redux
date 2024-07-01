@@ -40,6 +40,8 @@
 //     filters: filterReducer,
 //     todoList: todoListReducer
 // });
+
+
 // const rootReducer = (state = {}, action) => {
 //     return {
 //         filters: filterReducer(state.filters, action),
@@ -58,24 +60,24 @@
 //         }
 //     */
 
-// //     /* switch (action.type) {
-// //         case "todoList/addTodo":
-// //             return {
-// //                 ...state,
-// //                 todoList: [...state.todoList, action.payload]
-// //             }
-// //         case "filter/searchFilterChange":
-// //             return {
-// //                 ...state,
-// //                 filters: {
-// //                     ...state.filters,
-// //                     search: action.payload
-// //                 }
-// //             }
-// //         default:
-// //             console.log("default called");
-// //             return state;
-// //     } */
-// // }
+//     /* switch (action.type) {
+//         case "todoList/addTodo":
+//             return {
+//                 ...state,
+//                 todoList: [...state.todoList, action.payload]
+//             }
+//         case "filter/searchFilterChange":
+//             return {
+//                 ...state,
+//                 filters: {
+//                     ...state.filters,
+//                     search: action.payload
+//                 }
+//             }
+//         default:
+//             console.log("default called");
+//             return state;
+//     } */
+// }
 
 // export default rootReducer;

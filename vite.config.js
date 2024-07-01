@@ -7,6 +7,11 @@ export default defineConfig({
   server: {
     hmr: {
       overlay: false
-    }
+    },
+    host: true,
+    port: 5173
+  },
+  watch: {
+    usePolling: true
   }
 })
